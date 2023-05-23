@@ -1,9 +1,26 @@
-<html>
-<head>
-</head>
-<body></body>
-<div>
-       <P>  do studt.......     </P>
-       <p>   java </p>
-</div>
-</html>
+ package Java_Script;
+
+import java.io.IOException;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class file_upload {
+
+	public static void main(String[] args) throws InterruptedException, IOException {
+		// TODO Auto-generated method stub
+			WebDriver cd=new ChromeDriver();
+			cd.get("https://demo.guru99.com/test/upload/");
+			cd.findElement(By.id("file_wraper0")).click();
+ 
+			Thread.sleep(3000);
+			Runtime.getRuntime().exec("C:\\Users\\KUNAL MOTE\\Desktop\\oops.exe");
+			//Runtime.getRuntime().exec("C:\\Users\\KUNAL MOTE\\");
+			//Runtime.getRuntime().exec("C:\\Users\\KUNAL MOTE\\Documents\\My Documents\\practice.exe");
+ 
+ 
+	}
+
+}
+ 
