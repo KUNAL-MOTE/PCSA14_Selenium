@@ -13,7 +13,7 @@ public class file_upload {
 			WebDriver cd=new ChromeDriver();
 			cd.get("https://demo.guru99.com/test/upload/");
 			cd.findElement(By.id("file_wraper0")).click();
- 
+                        cd.findElement(By.id("kunal")).sendkeys("do study ");
 			Thread.sleep(3000);
 			Runtime.getRuntime().exec("C:\\Users\\KUNAL MOTE\\Desktop\\oops.exe");
 			//Runtime.getRuntime().exec("C:\\Users\\KUNAL MOTE\\");
